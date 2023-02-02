@@ -1,0 +1,16 @@
+C:\Users\Carba\source\repos\PracticaSemanaUno\PracticaSemanaUno\obj\Debug\PracticaSemanaUno.csproj.AssemblyReference.cache
+C:\Users\Carba\source\repos\PracticaSemanaUno\PracticaSemanaUno\obj\Debug\PracticaSemanaUno.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carba\source\repos\PracticaSemanaUno\PracticaSemanaUno\obj\Debug\PracticaSemanaUno.csproj.CoreCompileInputs.cache
+C:\Users\Carba\source\repos\PracticaSemanaUno\PracticaSemanaUno\bin\Debug\PracticaSemanaUno.exe.config
+C:\Users\Carba\source\repos\PracticaSemanaUno\PracticaSemanaUno\bin\Debug\PracticaSemanaUno.exe
+C:\Users\Carba\source\repos\PracticaSemanaUno\PracticaSemanaUno\bin\Debug\PracticaSemanaUno.pdb
+C:\Users\Carba\source\repos\PracticaSemanaUno\PracticaSemanaUno\obj\Debug\PracticaSemanaUno.exe
+C:\Users\Carba\source\repos\PracticaSemanaUno\PracticaSemanaUno\obj\Debug\PracticaSemanaUno.pdb
+C:\Users\ASUS\Documents\GitHub\Progra3\PracticaSemanaUno-main\PracticaSemanaUno\bin\Debug\PracticaSemanaUno.exe.config
+C:\Users\ASUS\Documents\GitHub\Progra3\PracticaSemanaUno-main\PracticaSemanaUno\bin\Debug\PracticaSemanaUno.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\PracticaSemanaUno-main\PracticaSemanaUno\bin\Debug\PracticaSemanaUno.pdb
+C:\Users\ASUS\Documents\GitHub\Progra3\PracticaSemanaUno-main\PracticaSemanaUno\obj\Debug\PracticaSemanaUno.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\PracticaSemanaUno-main\PracticaSemanaUno\obj\Debug\PracticaSemanaUno.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\PracticaSemanaUno-main\PracticaSemanaUno\obj\Debug\PracticaSemanaUno.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\PracticaSemanaUno-main\PracticaSemanaUno\obj\Debug\PracticaSemanaUno.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\PracticaSemanaUno-main\PracticaSemanaUno\obj\Debug\PracticaSemanaUno.pdb
