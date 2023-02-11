@@ -1,0 +1,7 @@
+C:\Users\ASUS\Documents\GitHub\Progra3\Inmueble\Inmueble\bin\Debug\Inmueble.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\Inmueble\Inmueble\bin\Debug\Inmueble.pdb
+C:\Users\ASUS\Documents\GitHub\Progra3\Inmueble\Inmueble\obj\Debug\Inmueble.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\Inmueble\Inmueble\obj\Debug\Inmueble.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\Inmueble\Inmueble\obj\Debug\Inmueble.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\Inmueble\Inmueble\obj\Debug\Inmueble.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\Inmueble\Inmueble\obj\Debug\Inmueble.pdb
