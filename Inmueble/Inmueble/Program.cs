@@ -124,7 +124,7 @@ namespace Inmueble
                                 WriteLine("\nCasa Disponible: ");
                                 Casa casa = new Casa("Casa bonita",150000.000);
                                 WriteLine(casa.imprimirDatos());
-                                WriteLine("\n¿Deseas Continuar?");
+                                WriteLine("\n¿Deseas Comprar?");
                                 WriteLine("1- Si");
                                 WriteLine("2- No");
                                 
