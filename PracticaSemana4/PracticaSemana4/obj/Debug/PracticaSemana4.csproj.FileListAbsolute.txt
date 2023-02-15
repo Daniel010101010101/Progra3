@@ -1,0 +1,8 @@
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PracticaSemana4\PracticaSemana4\bin\Debug\PracticaSemana4.exe.config
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PracticaSemana4\PracticaSemana4\bin\Debug\PracticaSemana4.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PracticaSemana4\PracticaSemana4\bin\Debug\PracticaSemana4.pdb
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PracticaSemana4\PracticaSemana4\obj\Debug\PracticaSemana4.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PracticaSemana4\PracticaSemana4\obj\Debug\PracticaSemana4.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PracticaSemana4\PracticaSemana4\obj\Debug\PracticaSemana4.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PracticaSemana4\PracticaSemana4\obj\Debug\PracticaSemana4.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PracticaSemana4\PracticaSemana4\obj\Debug\PracticaSemana4.pdb
