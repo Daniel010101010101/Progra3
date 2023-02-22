@@ -1,0 +1,8 @@
+C:\Users\ALUMNO\Documents\GitHub\Progra3\primerLaboratorio\primerLaboratorio\bin\Debug\primerLaboratorio.exe.config
+C:\Users\ALUMNO\Documents\GitHub\Progra3\primerLaboratorio\primerLaboratorio\bin\Debug\primerLaboratorio.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\primerLaboratorio\primerLaboratorio\bin\Debug\primerLaboratorio.pdb
+C:\Users\ALUMNO\Documents\GitHub\Progra3\primerLaboratorio\primerLaboratorio\obj\Debug\primerLaboratorio.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\primerLaboratorio\primerLaboratorio\obj\Debug\primerLaboratorio.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\primerLaboratorio\primerLaboratorio\obj\Debug\primerLaboratorio.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\primerLaboratorio\primerLaboratorio\obj\Debug\primerLaboratorio.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\primerLaboratorio\primerLaboratorio\obj\Debug\primerLaboratorio.pdb
