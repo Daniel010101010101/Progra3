@@ -1,0 +1,8 @@
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica5\Practica5\bin\Debug\Practica5.exe.config
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica5\Practica5\bin\Debug\Practica5.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica5\Practica5\bin\Debug\Practica5.pdb
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica5\Practica5\obj\Debug\Practica5.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica5\Practica5\obj\Debug\Practica5.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica5\Practica5\obj\Debug\Practica5.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica5\Practica5\obj\Debug\Practica5.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica5\Practica5\obj\Debug\Practica5.pdb

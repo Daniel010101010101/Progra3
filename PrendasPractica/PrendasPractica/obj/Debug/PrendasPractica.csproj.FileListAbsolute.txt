@@ -1,0 +1,8 @@
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\bin\Debug\PrendasPractica.exe.config
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\bin\Debug\PrendasPractica.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\bin\Debug\PrendasPractica.pdb
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.pdb
