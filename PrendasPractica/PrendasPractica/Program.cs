@@ -13,36 +13,35 @@ internal class Program
         WriteLine("Seleccione una opcion");
         WriteLine("1.Camisas");
         WriteLine("2.Pantalones");
-        opc = int.Parse(Console.ReadLine());
+        opc = int.Parse(ReadLine());
 
         if (opc == 1)
         {
+            
             Clear();
-            Prendas camisa = new Camisa("Alta | Baja", "Casual | Elegante", new string[] { "S", "M", "L" }, "Manga larga | Manga corta | Polo Sport");
+            Prendas camisa = new Camisa("Alta", "Casual | Elegante", new string[] { "M","S","L"}, "Larga | Corta");
+            
 
             //Prendas pantalon = new Pantalon("Media", "Casual", new string[] { "M", "L", "XL", "XXL" }, "Fino");
 
             Prendas[] prendas = new Prendas[] { camisa};
 
-            WriteLine("Catálogo de camisas por calidad:\n");
-
             foreach (Prendas prenda in prendas)
             {
                 prenda.MostrarPrenda();
-
+                
             }
+            
+            
         }
         if (opc == 2)
         {
             Clear();
             //Prendas camisa = new Camisa("Alta", "\tCasual", new string[] { "S", "M", "L" }, "Manga larga");
 
-            Prendas pantalon = new Pantalon("Media | Alta", "Casual | Elegante", new string[] { "M", "L", "XL", "XXL" }, "Fino | Casual");
+            Prendas pantalon = new Pantalon("Alta", "Casual | Elegante", new string[] { "M", "L", "XL", "XXL" }, "Fino | Casual");
 
             Prendas[] prendas = new Prendas[] { pantalon };
-
-            WriteLine("Catálogo de pantalones por calidad:\n");
-
             foreach (Prendas prenda in prendas)
             {
                 prenda.MostrarPrenda();
@@ -78,10 +77,37 @@ class Camisa : Prendas
 
     public override void MostrarPrenda()
     {
-        WriteLine("\nCamisa de " + calidad + "\tcalidad, \tdiseño " + diseno + ", \ttallas disponibles: " + string.Join(", ", talla) + ", \ttipo de manga: " + tipoManga);
-        WriteLine("\nGracias Por su visita :)");
+        PreguntarCalidad();
         ReadKey();
     }
+
+    public  void PreguntarCalidad()
+    {
+        int opc;
+        WriteLine("Selecciona la calidad que deseas");
+        WriteLine("1.Alta");
+        WriteLine("2.Baja");
+        opc = int.Parse(ReadLine());
+        if (opc == 1)
+        {
+            Clear();
+            WriteLine("\nHaz seleccionado camisa de " + calidad + " calidad");
+            WriteLine("\nAhora se muestra un catalogo de camisas de " + calidad + " calidad");
+            WriteLine("\nCamisa de " + calidad + " calidad, diseño " + diseno + ", tallas disponibles: " + string.Join(", ", talla) + ", estilo: " + tipoManga);
+            WriteLine("Gracias por su visita :)");
+
+  
+        }
+        else
+        {
+            WriteLine("Lo sentimos " +
+                      "\nERROR 404! " +
+                      "\nEn este momento no tenemos esas prendas disponibles " +
+                      "\nPor Favor intentalo mas tarde :)");
+        }
+    }
+
+    
 }
 
 class Pantalon : Prendas
@@ -95,10 +121,33 @@ class Pantalon : Prendas
 
     public override void MostrarPrenda()
     {
-        WriteLine("\nPantalón de " + calidad + " calidad, diseño " + diseno + ", tallas disponibles: " + string.Join(", ", talla) + ", estilo: " + estilo);
-        WriteLine("\nGracias Por su visita :)");
+        PreguntarCalidad();
         ReadKey();
     }
+    public  void PreguntarCalidad()
+    {
+        int opc;
+        WriteLine("Selecciona la calidad que deseas");
+        WriteLine("1.Alta");
+        WriteLine("2.Baja");
+        opc = int.Parse(ReadLine());
+        if (opc == 1)
+        {
+            Clear();
+            WriteLine("\nHaz seleccionado pantalon de " + calidad + " calidad");
+            WriteLine("\nAhora se muestra un catalogo de pantalones de " + calidad + " calidad");
+            WriteLine("\nPantalon de " + calidad + " calidad, diseño " + diseno + ", tallas disponibles: " + string.Join(", ", talla) + ", estilo: " + estilo);
+            WriteLine("Gracias por su visita :)");
+        }
+        else
+        {
+            WriteLine("Lo sentimos " +
+                      "\nERROR 404! " +
+                      "\nEn este momento no tenemos esas prendas disponibles " +
+                      "\nPor Favor intentalo mas tarde :)");
+        }
+    }
+
 }
 
 

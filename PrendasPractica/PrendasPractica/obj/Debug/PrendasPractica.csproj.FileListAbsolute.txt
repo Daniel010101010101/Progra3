@@ -6,3 +6,11 @@ C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Deb
 C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.csproj.CoreCompileInputs.cache
 C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.exe
 C:\Users\ALUMNO\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.pdb
+C:\Users\ASUS\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\bin\Debug\PrendasPractica.exe.config
+C:\Users\ASUS\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\bin\Debug\PrendasPractica.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\bin\Debug\PrendasPractica.pdb
+C:\Users\ASUS\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\PrendasPractica\PrendasPractica\obj\Debug\PrendasPractica.pdb
