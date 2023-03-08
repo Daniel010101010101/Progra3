@@ -1,0 +1,8 @@
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica7\Practica7\bin\Debug\Practica7.exe.config
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica7\Practica7\bin\Debug\Practica7.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica7\Practica7\bin\Debug\Practica7.pdb
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica7\Practica7\obj\Debug\Practica7.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica7\Practica7\obj\Debug\Practica7.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica7\Practica7\obj\Debug\Practica7.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica7\Practica7\obj\Debug\Practica7.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica7\Practica7\obj\Debug\Practica7.pdb

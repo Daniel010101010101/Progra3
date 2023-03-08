@@ -1,0 +1,8 @@
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Calzados\Calzados\bin\Debug\Calzados.exe.config
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Calzados\Calzados\bin\Debug\Calzados.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Calzados\Calzados\bin\Debug\Calzados.pdb
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Calzados\Calzados\obj\Debug\Calzados.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Calzados\Calzados\obj\Debug\Calzados.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Calzados\Calzados\obj\Debug\Calzados.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Calzados\Calzados\obj\Debug\Calzados.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Calzados\Calzados\obj\Debug\Calzados.pdb
