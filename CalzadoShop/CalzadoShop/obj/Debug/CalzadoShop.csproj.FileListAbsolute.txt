@@ -6,3 +6,11 @@ C:\Users\ALUMNO\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\bin\Debug\Calza
 C:\Users\ALUMNO\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\bin\Debug\CalzadoShop.pdb
 C:\Users\ALUMNO\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\obj\Debug\CalzadoShop.exe
 C:\Users\ALUMNO\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\obj\Debug\CalzadoShop.pdb
+C:\Users\ASUS\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\bin\Debug\CalzadoShop.exe.config
+C:\Users\ASUS\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\bin\Debug\CalzadoShop.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\bin\Debug\CalzadoShop.pdb
+C:\Users\ASUS\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\obj\Debug\CalzadoShop.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\obj\Debug\CalzadoShop.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\obj\Debug\CalzadoShop.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\obj\Debug\CalzadoShop.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\CalzadoShop\CalzadoShop\obj\Debug\CalzadoShop.pdb

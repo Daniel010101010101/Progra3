@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using static  System.Console;
 
 class Shoe
 {
+   
     public string Style { get; set; }
     public string Brand { get; set; }
     public int Size { get; set; }
     public string Gender { get; set; }
     public int Discount { get; set; }
 
-    public Shoe(string style, string brand, int size, string gender, int discount)
+    public Shoe( string style, string brand, int size, string gender, int discount)
     {
+       
         Style = style;
         Brand = brand;
         Size = size;
@@ -20,7 +23,7 @@ class Shoe
 
     public void DisplayDetails()
     {
-        Console.WriteLine("Estilo: {0}\nMarca: {1}\nTalla: {2}\nGénero: {3}\nDescuento: {4}%\n", Style, Brand, Size, Gender, Discount);
+        WriteLine("Estilo: {0}\nMarca: {1}\nTalla: {2}\nGénero: {3}\nDescuento: {4}%\n", Style, Brand, Size, Gender, Discount);
     }
 }
 
@@ -51,7 +54,7 @@ class Program
 {
     static void DisplayShoeCatalog(ShoeCatalog catalog)
     {
-        Console.WriteLine("Catálogo de zapatos para la tienda {0}:\n", catalog.StoreName);
+        WriteLine("Bienvenido a la  tienda de zapatos de {0}:\n", catalog.StoreName);
         foreach (Shoe shoe in catalog.Shoes)
         {
             shoe.DisplayDetails();
@@ -61,10 +64,10 @@ class Program
     static void Main(string[] args)
     {
         // Crear algunos zapatos
-        Shoe shoe1 = new Shoe("Deportivo", "Nike", 9, "Hombre", 20);
-        Shoe shoe2 = new Shoe("Formal", "Clarks", 8, "Mujer", 15);
-        Shoe shoe3 = new Shoe("Casual", "Adidas", 10, "Hombre", 10);
-        Shoe shoe4 = new Shoe("Deportivo", "Puma", 8, "Mujer", 5);
+        Shoe shoe1 = new Shoe("1- Deportivo", "Nike", 9, "Hombre", 20);
+        Shoe shoe2 = new Shoe("2- Formal", "Clarks", 8, "Mujer", 15);
+        Shoe shoe3 = new Shoe("1- Casual", "Adidas", 10, "Hombre", 10);
+        Shoe shoe4 = new Shoe("2- Deportivo", "Puma", 8, "Mujer", 5);
 
         // Crear algunos catálogos de zapatos
         ShoeCatalog catalog1 = new ShoeCatalog("Nike", new List<Shoe> { shoe1, shoe2 });
@@ -81,12 +84,12 @@ class Program
         Console.WriteLine("Tiendas de calzado disponibles:\n");
         foreach (Store store in stores)
         {
-            Console.WriteLine(store.StoreName);
+            WriteLine(store.StoreName);
         }
 
         // Pedir al usuario que seleccione una tienda
-        Console.WriteLine("\nSelecciona una tienda (introduce el nombre):");
-        string selectedStoreName = Console.ReadLine();
+        WriteLine("\nSelecciona una tienda (introduce el nombre):");
+        string selectedStoreName = ReadLine();
 
         // Buscar la tienda seleccionada
         Store selectedStore = null;
@@ -97,21 +100,135 @@ class Program
                 selectedStore = store;
                 break;
             }
+            
         }
 
         // Mostrar el catálogo de zapatos de la tienda seleccionada
-        if (selectedStore != null)
+        if (selectedStore == store1)
         {
+            
             foreach (ShoeCatalog catalog in selectedStore.ShoeCatalogs)
             {
+                Clear();
                 DisplayShoeCatalog(catalog);
+                WriteLine("Selecciona una opcion: ");
+                int opc = int.Parse(ReadLine());
+                int cantidad;
+
+                if (opc == 1)
+                {
+                    WriteLine("Ingresa la cantidad");
+                    cantidad = int.Parse(ReadLine());
+                    WriteLine("Escribe Continuar para realizar la compra");
+                    string accept = ReadLine();
+                    Clear();
+                    if (accept.Equals("Continuar"))
+                    {
+                        WriteLine("***FACTURA***");
+                        WriteLine("\nHas comprado: " +
+                                  $"\nEstilo: {shoe1.Style}"+
+                                  $"\nMarca: {shoe1.Brand}"+
+                                  $"\nTalla: {shoe1.Size}"+
+                                  $"\nGenero: {shoe1.Gender}"+
+                                  $"\nDescuento: {shoe1.Discount}"+
+                                  "\nCantidad: " + cantidad);
+                    }
+                    else
+                    {
+                        WriteLine("Error");
+                    }
+                }
+                else
+                {
+                    WriteLine("Ingresa la cantidad");
+                    cantidad = int.Parse(ReadLine());
+                    WriteLine("Escribe Continuar para realizar la compra");
+                    string accept = ReadLine();
+                    Clear();
+                    if (accept.Equals("Continuar"))
+                    {
+                        WriteLine("***FACTURA***");
+                        WriteLine("\nHas comprado: " +
+                                  $"\nEstilo: {shoe2.Style}"+
+                                  $"\nMarca: {shoe2.Brand}"+
+                                  $"\nTalla: {shoe2.Size}"+
+                                  $"\nGenero: {shoe2.Gender}"+
+                                  $"\nDescuento: {shoe2.Discount}"+
+                                  "\nCantidad: " + cantidad);
+                    }
+                    else
+                    {
+                        WriteLine("Error");
+                    }
+                }
+
             }
         }
-        else
+        if (selectedStore == store2)
         {
-            Console.WriteLine("\nTienda no encontrada.");
-        }
+            
+            foreach (ShoeCatalog catalog in selectedStore.ShoeCatalogs)
+            {
+                Clear();
+                DisplayShoeCatalog(catalog);
+                WriteLine("Selecciona una opcion: ");
+                int opc = int.Parse(ReadLine());
+                int cantidad;
 
-        Console.ReadLine();
+                if (opc == 1)
+                {
+                    WriteLine("Ingresa la cantidad");
+                    cantidad = int.Parse(ReadLine());
+                    WriteLine("Escribe Continuar para realizar la compra");
+                    string accept = ReadLine();
+                    Clear();
+                    if (accept.Equals("Continuar"))
+                    {
+                        WriteLine("***FACTURA***");
+                        WriteLine("\nHas comprado: " +
+                                  $"\nEstilo: {shoe3.Style}"+
+                                  $"\nMarca: {shoe3.Brand}"+
+                                  $"\nTalla: {shoe3.Size}"+
+                                  $"\nGenero: {shoe3.Gender}"+
+                                  $"\nDescuento: {shoe3.Discount}"+
+                                  "\nCantidad: " + cantidad);
+                    }
+                    else
+                    {
+                        WriteLine("Error");
+                    }
+                }
+                else
+                {
+                    WriteLine("Ingresa la cantidad");
+                    cantidad = int.Parse(ReadLine());
+                    WriteLine("Escribe Continuar para realizar la compra");
+                    string accept = ReadLine();
+                    Clear();
+                    if (accept.Equals("Continuar"))
+                    {
+                        WriteLine("***FACTURA***");
+                        WriteLine("\nHas comprado: " +
+                                  $"\nEstilo: {shoe4.Style}"+
+                                  $"\nMarca: {shoe4.Brand}"+
+                                  $"\nTalla: {shoe4.Size}"+
+                                  $"\nGenero: {shoe4.Gender}"+
+                                  $"\nDescuento: {shoe4.Discount}"+
+                                  "\nCantidad: " + cantidad);
+                    }
+                    else
+                    {
+                        WriteLine("Error");
+                    }
+                }
+
+            }
+        }
+        if (selectedStore != store1 && selectedStore != store2)
+        {
+            WriteLine("Tienda no encontrada!");
+        }
+        
+        ReadLine();
     }
 }
