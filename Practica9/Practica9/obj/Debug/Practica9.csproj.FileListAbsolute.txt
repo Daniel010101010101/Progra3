@@ -1,0 +1,8 @@
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica9\Practica9\bin\Debug\Practica9.exe.config
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica9\Practica9\bin\Debug\Practica9.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica9\Practica9\bin\Debug\Practica9.pdb
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica9\Practica9\obj\Debug\Practica9.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica9\Practica9\obj\Debug\Practica9.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica9\Practica9\obj\Debug\Practica9.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica9\Practica9\obj\Debug\Practica9.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\Practica9\Practica9\obj\Debug\Practica9.pdb

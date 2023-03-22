@@ -1,0 +1,8 @@
+C:\Users\ALUMNO\Documents\GitHub\Progra3\P09\P09\bin\Debug\P09.exe.config
+C:\Users\ALUMNO\Documents\GitHub\Progra3\P09\P09\bin\Debug\P09.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\P09\P09\bin\Debug\P09.pdb
+C:\Users\ALUMNO\Documents\GitHub\Progra3\P09\P09\obj\Debug\P09.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\P09\P09\obj\Debug\P09.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\P09\P09\obj\Debug\P09.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Documents\GitHub\Progra3\P09\P09\obj\Debug\P09.exe
+C:\Users\ALUMNO\Documents\GitHub\Progra3\P09\P09\obj\Debug\P09.pdb
