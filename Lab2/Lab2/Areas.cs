@@ -9,7 +9,8 @@ namespace Lab2
     class Areas
     {
         Empleado empleado = new Empleado();
-
+        AgregarProducto agp = new AgregarProducto();
+        int opc;
 
         public void Area()
         {
@@ -40,10 +41,17 @@ namespace Lab2
                     empleado.Cat1= int.Parse(ReadLine());
                     if (empleado.Cat1 == 1)
                     {
+                        
                         Clear();
                         WriteLine("1.Filete");
                         WriteLine("2.Bistec");
                         WriteLine("\n1.Agregar Producto\t2.Venta");
+                        opc = int.Parse(ReadLine());
+                        
+                        if (opc == 1)
+                        {
+                            agp.Agregar();
+                        }
                     }
                     else if (empleado.Cat1 == 2)
                     {
