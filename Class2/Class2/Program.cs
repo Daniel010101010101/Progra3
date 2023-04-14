@@ -1,64 +1,46 @@
 ﻿using System;
 using System.Collections.Generic;
-using static System.Console;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Class2
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Persona p = new Persona();
-            p.nombre = "Daniel";
-            Console.WriteLine(p.nombre);
-            p.Caminar();
-            p.Comer();
+class Producto {
+    public string nombre;
+    public float precio;
+    public int cantidad;
 
+    public Producto(string nombre, float precio, int cantidad) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.cantidad = cantidad;
+    }
+}
 
-            Estudiante estudiante = new Estudiante();
-            estudiante.nombre = "Daniel Tejada";
-            WriteLine(estudiante.nombre);
-            estudiante.Aprendo();
-            ReadKey();
-        }
-        class Persona
-        {
-            public string nombre;
-            public int edad;
-            public double peso;
-            public double altura;
+class Program {
+    static void Main(string[] args) {
+        List<Producto> listaProductos = new List<Producto>();
 
-            private string Nombre
-            {
-                get { return nombre; }
-                set { nombre = value; }
+        while (true) {
+            Console.Write("Ingresa el nombre del producto (o escribe 'salir' para terminar): ");
+            string nombre = Console.ReadLine();
+
+            if (nombre == "salir") {
+                break;
             }
 
-            public void Comer()
-            {
-                Console.WriteLine("Puedo Comer");
-            }
+            Console.Write("Ingresa el precio del producto: ");
+            float precio = float.Parse(Console.ReadLine());
 
-            public void Caminar()
-            {
-                Console.WriteLine("Puedo Caminar");
-            }
-            
+            Console.Write("Ingresa la cantidad del producto: ");
+            int cantidad = int.Parse(Console.ReadLine());
+
+            Producto nuevoProducto = new Producto(nombre, precio, cantidad);
+            listaProductos.Add(nuevoProducto);
+
+            Console.WriteLine("Producto agregado a la lista.");
         }
 
-        class Estudiante : Persona
-        {
-            public void Aprendo()
-            {
-                WriteLine("Yo aprendo programación");
-            }
-        }
-        
-        
+        Console.WriteLine("\nLa lista de productos es:");
 
-        
+        foreach (Producto producto in listaProductos) {
+            Console.WriteLine("Nombre: {0}, Precio: {1}, Cantidad: {2}", producto.nombre, producto.precio, producto.cantidad);
+        }
     }
 }

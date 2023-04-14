@@ -6,3 +6,11 @@ C:\Users\ALUMNO\Documents\GitHub\Progra3\Class2\Class2\obj\Debug\Class2.csproj.S
 C:\Users\ALUMNO\Documents\GitHub\Progra3\Class2\Class2\obj\Debug\Class2.csproj.CoreCompileInputs.cache
 C:\Users\ALUMNO\Documents\GitHub\Progra3\Class2\Class2\obj\Debug\Class2.exe
 C:\Users\ALUMNO\Documents\GitHub\Progra3\Class2\Class2\obj\Debug\Class2.pdb
+C:\Users\ASUS\Documents\GitHub\Progra3\Class2\Class2\bin\Debug\Class2.exe.config
+C:\Users\ASUS\Documents\GitHub\Progra3\Class2\Class2\bin\Debug\Class2.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\Class2\Class2\bin\Debug\Class2.pdb
+C:\Users\ASUS\Documents\GitHub\Progra3\Class2\Class2\obj\Debug\Class2.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\Class2\Class2\obj\Debug\Class2.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\Class2\Class2\obj\Debug\Class2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\Class2\Class2\obj\Debug\Class2.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\Class2\Class2\obj\Debug\Class2.pdb

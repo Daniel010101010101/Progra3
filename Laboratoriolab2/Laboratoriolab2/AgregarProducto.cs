@@ -9,6 +9,7 @@ namespace Lab2
 {
     class AgregarProducto
     {
+        private Areas areas = new Areas();
         private DateTime hora = DateTime.Now;
         public void Agregar() 
         {
@@ -16,12 +17,45 @@ namespace Lab2
             int totalCompras = 0;
             while (true)
             {
-                WriteLine("Ingresa el nombre del producto (o escribe 'salir' para terminar");
+                WriteLine("Ingresa el nombre del producto  (Escribe 'Venta' para realizar proceso de venta" +
+                          " o escribe  'salir' para terminar): ");
                 string nombre = ReadLine();
-                if (nombre=="salir" || nombre=="Salir")
+                if (nombre=="salir")
                 {
                     break;
                 }
+
+                if (nombre=="venta")
+                {
+                    while (true)
+                    {
+                        WriteLine("\n¿Cuál producto quieres comprar? Ingresa el nombre (o escribe 'Salir' para terminar): ");
+                        string productoComprar = ReadLine();
+                        if (productoComprar =="salir")
+                        {
+                            break;
+                        }
+
+                        WriteLine("¿Cuántas unidades quieres comprar? Ingresa la cantidad: ");
+                        int cantidadComprar = int.Parse(ReadLine());
+
+                        Producto productoSeleccionado = lista.Find(producto => producto.nombre == productoComprar);
+
+                        if (productoSeleccionado == null) {
+                            WriteLine("El producto no existe en la lista.");
+                        } else if (productoSeleccionado.cantidad < cantidadComprar) {
+                            WriteLine("No hay suficientes unidades del producto en la lista.");
+                        } else {
+                            float precioTotal = productoSeleccionado.precio * cantidadComprar;
+                            productoSeleccionado.cantidad -= cantidadComprar;
+                            totalCompras++;
+                            WriteLine("Compra realizada con éxito. Total a pagar: {0}", precioTotal);
+                        }
+                        WriteLine("\nEl total de compras realizadas es: {0}",totalCompras);
+                        
+                    }
+                }
+             
                 WriteLine("Ingresa el proveedor del producto: ");
                 string proveedor = ReadLine();
                 WriteLine("Ingresa la fecha de caducidad del producto: ");
@@ -48,39 +82,6 @@ namespace Lab2
                           "Cantidad: {5} ",producto.nombre,producto.proveedor,producto.fechaCaducidad,
                     producto.detalles,producto.precio,producto.cantidad);
                 
-            }
-            while (true)
-            {
-                WriteLine("\nBienvenido a la sección de ventas");
-                WriteLine("\nIngresa tu nombre (o escribe 'Salir' para terminar): ");
-                string nombre = ReadLine();
-                if (nombre == "salir")
-                {
-                    break;
-                }
-                WriteLine("Ingresa tu edad: ");
-                int edad = int.Parse(ReadLine());
-                WriteLine("\n¿Cuál producto quieres comprar? Ingresa el nombre : ");
-                string productoComprar = ReadLine();
-                WriteLine("¿Cuántas unidades quieres comprar? Ingresa la cantidad: ");
-                int cantidadComprar = int.Parse(ReadLine());
-
-                Producto productoSeleccionado = lista.Find(producto => producto.nombre == productoComprar);
-
-                if (productoSeleccionado == null) {
-                    WriteLine("El producto no existe en la lista.");
-                } else if (productoSeleccionado.cantidad < cantidadComprar) {
-                    WriteLine("No hay suficientes unidades del producto en la lista.");
-                } else {
-                    float precioTotal = productoSeleccionado.precio * cantidadComprar;
-                    productoSeleccionado.cantidad -= cantidadComprar;
-                    totalCompras++;
-                    WriteLine("Nombre de Cliente: {0}" +
-                              "Edad del cliente: {1}",nombre,edad);
-                    WriteLine("Compra realizada con éxito. Total a pagar: {0}", precioTotal);
-                }
-                WriteLine("\nEl total de compras realizadas es: {0}",totalCompras);
-                        
             }
         }
     }

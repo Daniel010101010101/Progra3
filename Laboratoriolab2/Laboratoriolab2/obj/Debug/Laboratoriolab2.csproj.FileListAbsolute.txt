@@ -1,0 +1,7 @@
+C:\Users\ASUS\Documents\GitHub\Progra3\Laboratoriolab2\Laboratoriolab2\bin\Debug\Laboratoriolab2.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\Laboratoriolab2\Laboratoriolab2\bin\Debug\Laboratoriolab2.pdb
+C:\Users\ASUS\Documents\GitHub\Progra3\Laboratoriolab2\Laboratoriolab2\obj\Debug\Laboratoriolab2.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\Laboratoriolab2\Laboratoriolab2\obj\Debug\Laboratoriolab2.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\Laboratoriolab2\Laboratoriolab2\obj\Debug\Laboratoriolab2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Progra3\Laboratoriolab2\Laboratoriolab2\obj\Debug\Laboratoriolab2.exe
+C:\Users\ASUS\Documents\GitHub\Progra3\Laboratoriolab2\Laboratoriolab2\obj\Debug\Laboratoriolab2.pdb
