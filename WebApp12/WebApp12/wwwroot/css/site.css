@@ -19,4 +19,12 @@ html {
 
 body {
   margin-bottom: 60px;
+  background: -webkit-linear-gradient(#4568DC, #B06AB3);
+}
+header{
+  margin-bottom: 60px;
+  background: -webkit-linear-gradient(#4568DC, #B06AB3);
+}
+h1 {
+  color: white;
 }

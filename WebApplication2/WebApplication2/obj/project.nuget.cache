@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WoPoInCmlb6yB+LD0z5kyUxDhjEg2sGOep9bleRz8EDmN6Zn5dBwIDnuw1xpxWfRntAhyHIhZkS9VBRm/K8XNg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ALUMNO\\Documents\\GitHub\\Progra3\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ALUMNO\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\7.0.0\\microsoft.aspnetcore.authentication.google.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
